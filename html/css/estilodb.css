@@ -1,0 +1,481 @@
+/*Estilos generales  -------------------------------------------------------------------------------------------------------*/
+
+body {
+    padding: 5% 0% 5% 25%;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    background: #fff;
+    border: #84a5e8 0.2rem solid;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 0rem 0rem 0.1rem 0rem;
+    width: 70%;
+}
+
+nav {
+    background: #fff;
+    border: #84a5e8 0.2rem solid;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 0rem 0rem 0.1rem 0rem;
+    width: 70%;
+}
+
+main {
+    background: #fff;
+    border: #84a5e8 0.2rem solid;
+    border-radius: 1rem;
+    width: 70%;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: left;
+}
+
+h5 {
+    text-align: left;
+    font-weight: bold;
+}
+
+h6 {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+p {
+    text-align: left;
+}
+
+.texto {
+    border-radius: 0.5rem;
+    text-align: left;
+    width: 90%;
+    background: #E0EAF8;
+}
+
+
+/*fecha calendario*/
+
+.fechas {
+    border-radius: 0.5rem;
+}
+
+
+/*radio buton*/
+
+.radio {
+    display: block;
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+
+/*ocultar radio generado por html */
+
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* nuevo radio */
+
+.radio .check {
+    background-color: #fff;
+    border: 0.1rem solid #84a5e8;
+    border-radius: 50%;
+    top: 0rem;
+    left: 0rem;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+}
+
+
+/*hover */
+
+.radio:hover input~.check {
+    border: 0.5rem solid #BBDAFF;
+}
+
+
+/* al presionar el radio */
+
+.radio input:checked~.check {
+    background-color: #BBDAFF;
+    border: none;
+}
+
+
+/* radio seleccionado */
+
+.radio .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio input:checked~.check:after {
+    display: block;
+}
+
+
+/* posicion punto del medio*/
+
+.radio .check:after {
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: black;
+}
+
+
+/* Header formularios medianos----------------------------------------- */
+
+.header2 {
+    width: 60%;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+header>div {
+    color: #2F74D0;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 0rem 1rem 0rem 1rem;
+    height: 8rem;
+}
+
+.encabezado>h2 {
+    font-size: 2.2rem;
+}
+
+
+/* fecha header formularios pequeños-------------------------------------*/
+
+
+/*abogadosentencia*/
+
+.fechasAS>h2 {
+    border-radius: 0.5rem;
+    font-size: 2.2rem;
+}
+
+
+/* nav estilos -------------------------------------------------------------------------------------------------------*/
+
+
+/* nav formularios grandes-------------------------------------------------*/
+
+
+/*db_abogados*/
+
+
+/* formularios pequeños-------------------------------------------------*/
+
+
+/*abogadosentencia*/
+
+.nav2 {
+    width: 60%;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+.boton {
+    margin: 0rem 0rem 0rem 2rem;
+    background: #84a5e8;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.boton:hover {
+    background: #84a5e8;
+    color: black;
+}
+
+.boton:focus-within {
+    background: #BBDAFF;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.botonbusqueda {
+    background: #84a5e8;
+    color: #fff;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.botonbusqueda:hover {
+    background: #84a5e8;
+    color: black;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.botonbusqueda:focus-within {
+    background: #BBDAFF;
+    color: black;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.form-group-row {
+    align-items: center;
+}
+
+
+/* main estilos -------------------------------------------------------------------------------------------------------*/
+
+
+/*main formularios grandes------------------------------------------------------*/
+
+
+/*db_abogados*/
+
+
+/*main formularios pequeños------------------------------------------------------*/
+
+
+/*abogadosentencia*/
+
+.main2 {
+    width: 60%;
+}
+
+
+/*titulocontenido de formlarios pequeños------------------------------------------*/
+
+
+/*abogadosentencia*/
+
+.tituloContenido2 {
+    padding: 1rem 0rem 1rem 4rem;
+    background: #fff;
+    width: 50%;
+    border-radius: 0.5rem;
+}
+
+
+/*contenido de formlarios pequeños------------------------------------------*/
+
+
+/*abogadosentencia*/
+
+.contenido2 {
+    position: relative;
+    text-align: left;
+    background: #fff;
+    width: 50%;
+    padding-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+
+/* pestañas------------------------------------------------------------------------------------------------------------ */
+
+
+/*dbabogados*/
+
+.contenedor {
+    width: 100%;
+    height: 4.8rem;
+    background: #337ab7;
+    border: #84a5e8 0.2rem solid;
+    border-radius: 1rem;
+}
+
+.cabecera .cabecera-activa>boton {
+    background: white;
+}
+
+.cabecera {
+    color: black;
+    display: inline-block;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.cabecera-activa {
+    border-bottom-color: white;
+    background: #ffffff;
+}
+
+.cabecera-activa:focus-within {
+    background: #337ab7;
+}
+
+.cabecera>button {
+    background: #337ab7;
+    border: 0.1rem #337ab7 solid;
+    color: #fff;
+}
+
+.cabecera>button:hover {
+    background: #84a5e8;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.cabecera>button:focus-within {
+    background: #fff;
+    color: black;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    border-bottom-color: white;
+    transform: translateY(0.2rem);
+}
+
+
+/* contenido pestañas------------------------------------------------------------------------------------------------------------ */
+
+
+/*db_abogados*/
+
+.pestana {
+    background: #84a5e8;
+    position: absolute;
+    border: 0.5rem solid #fff;
+    border-radius: 0.5rem;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    max-width: 50.6%;
+}
+
+.pestana-activa {
+    visibility: visible;
+    opacity: 1;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    border: 0.3rem solid white;
+}
+
+.cabecera1 {
+    color: black;
+    border-radius: 1rem;
+    background: white;
+    border: #84a5e8 0.2rem solid;
+}
+
+.secciones {
+    width: 100%;
+    background: #fff;
+    padding: 0rem 0rem 0rem 0rem;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 1rem;
+}
+
+.nombrecampos {
+    background: #84a5e8;
+    border: #fff 0.2rem solid;
+    color: #fff;
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+    width: 100%;
+}
+
+.tituloContenido {
+    padding: 1rem 0rem 1rem 4rem;
+    background: #fff;
+    width: 29%;
+    border-radius: 0.5rem;
+}
+
+.contenido {
+    position: relative;
+    text-align: left;
+    background: #fff;
+    width: 71%;
+    padding-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.contenido .boton {
+    margin-bottom: 1rem;
+}
+
+
+/* estilo de pestaña documentos de db_abogados------------------------------------------------ */
+
+.secciones2 {
+    width: 100%;
+    background: #fff;
+    padding: 0rem 0rem 0rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.secciones3 {
+    width: 100%;
+    background: #fff;
+    padding: 0rem 0rem 0rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.tituloContenidod {
+    padding: 2rem 4rem 1rem 4rem;
+    background: #fff;
+    border-radius: 0.5rem 0rem 0rem 0rem;
+}
+
+.tituloContenidod2 {
+    padding: 1rem 6.8rem 1rem 4rem;
+    background: #fff;
+    border-radius: 0rem 0rem 0rem 0.5rem;
+}
+
+.contenidod {
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border-radius: 0rem 0rem 0rem 0.5rem;
+}
+
+.contenidod .boton {
+    margin: 2rem;
+}
+
+.cc {
+    width: 100%;
+}
+
+.tp {
+    width: 100%;
+}

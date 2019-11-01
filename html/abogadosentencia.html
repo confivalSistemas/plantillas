@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<title>Formulario abogados sentencia</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/estilodb.css">
+<!--===============================================================================================-->
+	<script type="text/javascript" src="js/formularios.js"></script>
+<!--===============================================================================================-->
+</head>
+<body>
+	<header class="header2">
+		<div class="encabezado">
+			<h2>
+				FORMULARIO ABOGADOS SENTENCIA
+			</h2>
+		</div>
+
+		<div class="fechasAS">
+			<p>
+				<h2>
+					<script>
+						var f = new Date();
+						document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+					</script>
+				</h2>
+			</p><br>
+		</div>
+	</header>
+
+	<nav class="nav2">
+		<form action="" method="post">
+			<div class="form-group-row">
+				<div class="col-xs-12">
+					<div class="input-group">
+						<input class="form-control" id="ex1" type="search" placeholder="B&uacute;squeda r&aacute;pida">
+						<span class="input-group-btn">
+							<button class="btn botonbusqueda" type="button">
+								<i class="glyphicon glyphicon-search"></i>
+							</button>
+						</span>
+
+						<span class="input-group-btn">
+						<div class="botones">
+							<button class="btn boton" type="button">Nuevo
+								<i class="glyphicon glyphicon-plus"></i>
+							</button>
+
+							<button class="btn boton" type="button">Guardar
+								<i class="glyphicon glyphicon-floppy-disk"></i>
+							</button>
+
+							<button class="btn boton" type="button">Borrar
+								<i class="glyphicon glyphicon-trash"></i>
+							</button>
+
+							<button class="btn boton" type="button">Salir
+								<i class="glyphicon glyphicon-log-out"></i>
+							</button>
+					</div>
+						</span>
+				</div>
+			</div>
+		</form>
+	</nav>
+
+	<main class="main2">
+		<form action="" method="post">
+		<section id="informacion" class="secciones">
+			<div class="tituloContenido2">
+				<h4>
+					C&oacute;digo
+				</h4>
+			</div>
+			<div class="contenido2">
+				<input type="text" name="" class="texto">
+			</div>
+
+			<div class="tituloContenido2">
+				<h4>
+					C&oacute;digo de registro de sentencia
+				</h4>
+			</div>
+			<div class="contenido2">
+				<input type="text" name="" class="texto">
+			</div>
+
+			<div class="tituloContenido2">
+				<h4>
+					C&oacute;digo de abogado
+				</h4>
+			</div>
+			<div class="contenido2">
+				<input type="text" name="" class="texto">
+			</div>
+
+			<div class="tituloContenido2">
+				<h4>
+					Cedente
+				</h4>
+			</div>
+
+			<form action="" method="post">
+				<div class="contenido2">
+					<label class="radio">Si
+						<input type="radio"  name="radio">
+						<span class="check"></span>
+					</label>
+
+					<label class="radio">No
+						<input type="radio" name="radio">
+						<span class="check"></span>
+					</label>
+				</div>
+			
+			<div class="tituloContenido2">
+				<h4>
+					Honorarios
+				</h4>
+			</div>
+			<div class="contenido2">
+				<input type="text" name="" class="texto">
+			</div>
+		</section>
+		</form>
+	</main>
+
+
+
+</body>
+</html>

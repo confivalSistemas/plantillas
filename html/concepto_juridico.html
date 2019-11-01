@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Concepto Jur&iacute;dico</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	<header>
+		<div class="encabezado">
+			<h2>
+				Concepto departamento jur&iacute;dico
+			</h2>
+		</div>
+		<div class="fecha">
+			<p>
+				<h2>
+					<script>
+						var f = new Date();
+						document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+					</script>
+				</h2>
+			</p><br>
+		</div>
+	</header>
+
+	<nav>
+		<form action="" method="post">
+			<div class="form-group-row">
+				<div class="col-xs-11">
+					<div class="input-group">
+						<input class="form-control" id="ex1" type="search" placeholder="B&uacute;squeda r&aacute;pida">
+						<span class="input-group-btn">
+							<button class="btn botonbusqueda" type="button">
+								<i class="glyphicon glyphicon-search"></i>
+							</button>
+						</span>
+
+						<span class="input-group-btn">
+						<div class="botones">
+							<button class="btn boton" type="button">Nuevo
+								<i class="glyphicon glyphicon-plus"></i>
+							</button>
+
+							<button class="btn boton" type="button">Guardar
+								<i class="glyphicon glyphicon-floppy-disk"></i>
+							</button>
+					
+							<button class="btn boton" type="button">Borrar
+								<i class="glyphicon glyphicon-trash"></i>
+							</button>
+					
+							<button class="btn boton" type="button">Salir
+								<i class="glyphicon glyphicon-log-out"></i>
+							</button>
+						</div>
+						</span>
+					
+				</div>
+			</div>
+		</form>
+	</nav>
+
+	<main>
+		<section class="s1">
+			<div class="contenido">
+				<h5>
+					<b>C&oacute;digo</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h6>
+					{{campo}}
+				</h6>
+			</div>
+
+			<div class="contenido">
+				<h5>
+					<b>Actor:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h6>
+					{{campo}}
+				</h6>
+			</div>
+
+			<div class="contenido">
+				<h5>
+					<b>Sentencia/conciliaci&oacute;n:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h6>
+					{{campo}}
+				</h6>
+			</div>
+
+			<div class="contenido">
+				<h5>
+					<b>Demandante:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h6>
+					{{campo}}
+				</h6>
+			</div>
+
+			<div class="contenido">
+				<h5>
+					<b>Abogado:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h6>
+					{{campo}}
+				</h6>
+			</div>
+
+			<div class="contenido">
+				<h5>
+					<b>Demandado:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h6>
+					{{campo}}
+				</h6>
+			</div>
+
+			<div class="contenido">
+				<h5>
+					<b>Expediente:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h6>
+					{{campo}}
+				</h6>
+			</div>
+
+			<div class="contenido">
+				<h5>
+					<b>R&eacute;gimen:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h6>
+					{{campo}}
+				</h6>
+			</div>
+		</section>
+
+		<section class="s2">
+
+			<div class="encabezadoT">
+				<h5>
+					<b>Verificaci&oacute;n de la cuenta de cobro:</b>
+				</h5>
+			</div>
+
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Constancia secretarial:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Turno de pago:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Sentencia de primera instancia:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Sentencia de segunda instancia:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Correcci&oacute;n sentencia</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Poderes iniciales</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Fundamento jur&iacute;dico aplicable:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Valoraci&oacute;n del titulo de imputaci&oacute;n:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Poder de cesi&oacute;n:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Contrato de cesi&oacute;n:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Paz y salvo:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Aceptaci&oacute;n de cesi&oacute;n:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Notificaci&oacute;n de cesi&oacute;n:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Visita insitu:</b>
+				</h5>
+			</div>
+			<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+
+				<button class="btn botonArchivo" type="button">Archivo
+					<i class="glyphicon glyphicon-search"></i>
+				</button>
+			</div>
+		</section>
+
+		<section class="s2">
+			<div class="encabezadoT">
+				<h5>
+					<b>Conclusiones para el negocio:</b>
+				</h5>
+			</div>
+				<div class="contenido">
+				<h5>
+					Observación:
+				</h5>
+				<p>{{campo}}</p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footitle">
+			<h5>
+				<b>Elaborado por:</b>
+			</h5>
+		</div>
+		<div class="footcont">
+			<h5>
+				{{campo}}
+			</h5>
+		</div>
+
+		<div class="footitle">
+			<h5>
+				<b>Revisado por:</b>
+			</h5>
+		</div>
+		<div class="footcont">
+			<h5>
+				{{campo}}
+			</h5>
+		</div>
+	</footer>
+
+</body>
+
+</html>
